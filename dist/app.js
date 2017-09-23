@@ -7,3 +7,5 @@ console.log("Episode: " + episode);
 var favoritDroid;
 favoritDroid = "BB-8";
 console.log("My favorite droid is" + favoritDroid);
+var nome = "Jemesson";
+console.log(nome);

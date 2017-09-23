@@ -10,3 +10,6 @@ console.log("Episode: "+ episode)
 let favoritDroid: string
 favoritDroid = "BB-8"
 console.log("My favorite droid is" + favoritDroid)
+
+let nome: string = "Jemesson"
+console.log(nome)
