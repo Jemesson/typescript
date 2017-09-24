@@ -1,6 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const star_fighters_1 = require("./star-fighters");
+const _ = require("lodash");
+console.log(_.pad("typescript examples", 40, "="));
+let ship = new star_fighters_1.MilleniumFalcon();
+ship.jumpIntoHyperspace();
 let falcon = new star_fighters_1.MilleniumFalcon();
 falcon.jumpIntoHyperspace();
 let goodForTheJob = (ship) => falcon.cargoContainers > 2;

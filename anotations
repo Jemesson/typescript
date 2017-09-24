@@ -1,0 +1,10 @@
+Importing a library in javascript using typescript:
+
+Example:
+
+1. Say to my project to use node package manager:
+   npm init -f: It'll create a file named: package.json with some configurations.
+2. Add a dependency from node:
+   npm install --save lodash@4.14: It'll add a dependency to our project.
+3. Add the @types directory from node:
+   npm install --save-dev @types/lodash@4.14
