@@ -2,6 +2,8 @@
   "compileOnSave": true,
   "compilerOptions": {
     "outDir": "dist",
-    "noEmitOnError": false
+    "noEmitOnError": false,
+    "target": "ES6",
+    "module": "commonjs"
   }
 }

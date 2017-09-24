@@ -1,15 +1,8 @@
-let message: string = "Help-me, Obi-Wan Kenobi. You're my only hope."
-console.log(message)
+import {Spacecraft, Containership} from './base-ships'
+import {MilleniumFalcon} from './star-fighters'
 
-let episode: number = 4
-console.log("This is the episode: "+ episode)
+let falcon = new MilleniumFalcon()
+falcon.jumpIntoHyperspace()
 
-episode = episode+1
-console.log("Episode: "+ episode)
-
-let favoritDroid: string
-favoritDroid = "BB-8"
-console.log("My favorite droid is" + favoritDroid)
-
-let nome: string = "Jemesson"
-console.log(nome)
+let goodForTheJob = (ship: Containership) => falcon.cargoContainers > 2
+console.log(`Is falcon good for the job? ${goodForTheJob(falcon) ? 'y': 'n'} `)

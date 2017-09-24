@@ -1,11 +1,7 @@
-var message = "Help-me, Obi-Wan Kenobi. You're my only hope.";
-console.log(message);
-var episode = 4;
-console.log("This is the episode: " + episode);
-episode = episode + 1;
-console.log("Episode: " + episode);
-var favoritDroid;
-favoritDroid = "BB-8";
-console.log("My favorite droid is" + favoritDroid);
-var nome = "Jemesson";
-console.log(nome);
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const star_fighters_1 = require("./star-fighters");
+let falcon = new star_fighters_1.MilleniumFalcon();
+falcon.jumpIntoHyperspace();
+let goodForTheJob = (ship) => falcon.cargoContainers > 2;
+console.log(`Is falcon good for the job? ${goodForTheJob(falcon) ? 'y' : 'n'} `);
