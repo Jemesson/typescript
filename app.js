@@ -9,4 +9,4 @@ ship.jumpIntoHyperspace();
 var falcon = new star_fighters_1.MilleniumFalcon();
 falcon.jumpIntoHyperspace();
 var goodForTheJob = function (ship) { return falcon.cargoContainers > 2; };
-console.log("Is falcon good for the job? " + (goodForTheJob(falcon) ? 'y' : 'n') + " ");
+console.log("Is falcon good for the job? " + (goodForTheJob(falcon) ? 'yeah' : 'noo') + " ");
