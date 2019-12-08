@@ -3,6 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const star_fighters_1 = require("./star-fighters");
 const _ = require("lodash");
 console.log(_.pad("typescript examples", 40, "="));
+console.log("#####Its My Millenium Falcon. Welcome to my ship!#####");
 let ship = new star_fighters_1.MilleniumFalcon();
 ship.jumpIntoHyperspace();
 let falcon = new star_fighters_1.MilleniumFalcon();

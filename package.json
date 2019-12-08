@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/Jemesson/typescript#readme",
   "dependencies": {
-    "lodash": "^4.14.2"
+    "lodash": "^4.17.15"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.74"
