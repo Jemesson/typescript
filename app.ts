@@ -13,3 +13,9 @@ falcon.jumpIntoHyperspace()
 
 const goodForTheJob = (ship: Containership) => falcon.cargoContainers > 2
 console.log(`Is falcon good for the job? ${goodForTheJob(falcon) ? 'yeah': 'noo'} `)
+
+let status = false;
+while(true) {
+    console.log(status);
+    status = !status;
+}
